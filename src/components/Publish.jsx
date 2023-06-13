@@ -1,20 +1,25 @@
 import Switch from "@mui/material/Switch";
 import Button from "@mui/material/Button";
-import Select from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
+import Select from "@mui/material/Select";
+import MenuItem from "@mui/material/MenuItem";
 import { OutlinedInput } from "@mui/material";
 import "./Publish.css";
 
 const Publish = () => {
   return (
-    <div style={{margin: "1rem"}}>
-      <div style={{margin: "1rem" }}>
+    <div style={{ margin: "1rem" }}>
+      <div style={{ margin: "1rem" }}>
         <OutlinedInput
           size="small"
           value={window.location.href}
           readOnly
         ></OutlinedInput>
-        <Button sx={{textTransform: 'none', color: 'black'}} variant="outlined">Copy Web link</Button>
+        <Button
+          sx={{ textTransform: "none", color: "black" }}
+          variant="outlined"
+        >
+          Copy Web link
+        </Button>
       </div>
 
       <div style={{ marginTop: "1rem" }}>
@@ -39,8 +44,20 @@ const Publish = () => {
       </div>
 
       <div className="btn">
-        <Button sx={{color: 'black', textTransform: 'none', width: '175px'}} variant="outlined" id="unpublish-btn">Unpublish</Button>
-        <Button sx={{textTransform: 'none', width: '175px'}} variant="contained" id="view-btn">View site</Button>
+        <Button
+          sx={{ color: "black", textTransform: "none", width: "175px" }}
+          variant="outlined"
+          id="unpublish-btn"
+        >
+          Unpublish
+        </Button>
+        <Button
+          sx={{ textTransform: "none", width: "175px" }}
+          variant="contained"
+          id="view-btn"
+        >
+          View site
+        </Button>
       </div>
     </div>
   );

@@ -104,7 +104,6 @@ const Share = () => {
             ))}
           </Select>
         </div>
-        
       </div>
       <Box sx={{ borderTop: 1, borderColor: "gray" }}>
         <div className="foot">
