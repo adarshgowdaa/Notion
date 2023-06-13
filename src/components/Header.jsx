@@ -2,6 +2,7 @@ import React from "react";
 import Button from "@mui/material/Button";
 import Popover from "@mui/material/Popover";
 import Publish from "./Publish";
+import Share from "./Share";
 
 function Header() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -32,7 +33,8 @@ function Header() {
           horizontal: 'left',
         }}
       >
-      <Publish/>
+      {/* <Publish/> */}
+      <Share/>
       </Popover>
     </div>
   );
