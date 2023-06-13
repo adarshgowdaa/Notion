@@ -1,0 +1,15 @@
+.access {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px 0 20px 0;
+  
+}
+
